@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Default High Contrast Light",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
