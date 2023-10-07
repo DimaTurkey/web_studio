@@ -1,0 +1,25 @@
+p {
+    font-size: 15px;
+    color: gray;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a[href="https://email:github@webstudio.com/"] {
+    color: aqua;
+}
+
+a[href="https://telephone:+38 067 425 88 04"] {
+    color: gray;
+}
