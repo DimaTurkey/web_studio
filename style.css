@@ -1,11 +1,27 @@
-p {
-    font-size: 15px;
-    color: gray;
+:root {
+    --comandname: #212121;
+    --comandtext: #757575;
+    --featuresmain: #212121;
+    --featurestext: #757575;
+    --Whatdo: #FFFFFF;
+    --whatdobg: #2f303a;
+    --wathbt: #FFFFFF;
+    --wathbtbg: #2193f3;
+    --headermail: #757575;
+    -- -- -- --
 }
 
+/*hero*/
+p {
+    font-size: 15px;
+}
+
+/*site-information*/
 h1 {
     font-size: 45px;
-    color: white;
+    color: #FFFFFF;
+    background-color: #A9A9A9;
+    padding: 20px;
 }
 
 h2 {
@@ -16,10 +32,7 @@ h3 {
     font-size: 20px;
 }
 
-a[href="https://email:github@webstudio.com/"] {
-    color: aqua;
-}
-
-a[href="https://telephone:+38 067 425 88 04"] {
-    color: gray;
+.background-color {
+    width: 1000px;
+    height: 450px;
 }
