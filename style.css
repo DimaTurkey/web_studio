@@ -1,26 +1,14 @@
-:root {
-    --comandname: #212121;
-    --comandtext: #757575;
-    --featuresmain: #212121;
-    --featurestext: #757575;
-    --Whatdo: #FFFFFF;
-    --whatdobg: #2f303a;
-    --wathbt: #FFFFFF;
-    --wathbtbg: #2193f3;
-    --headermail: #757575;
-    -- -- -- --
-}
-
 /*hero*/
 p {
     font-size: 15px;
+    color: #A9A9A9;
 }
 
 /*site-information*/
 h1 {
     font-size: 45px;
-    color: #FFFFFF;
     background-color: #A9A9A9;
+    color: #FFFFFF;
     padding: 20px;
 }
 
@@ -32,7 +20,78 @@ h3 {
     font-size: 20px;
 }
 
-.background-color {
-    width: 1000px;
-    height: 450px;
+.hero-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.sender {
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+h4 {
+    color: #FFFFFF;
+    background-color: #A9A9A9;
+    font-size: 15px;
+}
+
+.command-title {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.detail-title {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.progect-title {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.hero-button {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.cite-title {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.cites-text {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.cites-text {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.command-text {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.detail-text {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.command-titles {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.find-button {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.send {
+    font-family: Roboto;
+    font-weight: 500;
 }

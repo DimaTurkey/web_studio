@@ -7,59 +7,83 @@
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,900;1,900&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <header>
       <ul>
         <li>
-          <a href="./index.html">WebStudio</a>
+          <a class="sender" href="./index.html">WebStudio</a>
         </li>
         <li>
-          <a href="./portfolio.html">Портфоліо</a>
+          <a class="send" href="./index.html">Студія</a>
         </li>
         <li>
-          <a href="./index.html">Контакти</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="./index.html">email:github@webstudio.com</a>
+          <a class="send" href="./portfolio.html">Портфоліо</a>
         </li>
         <li>
-          <a href="./index.html">telephone:+38 067 425 88 04</a>
+          <a class="send" href="./index.html">Контакти</a>
+        </li>
+        <li>
+          <a class="send" href="./index.html">email:github@webstudio.com</a>
+        </li>
+        <li>
+          <a class="send" href="./index.html">telephone:+38 067 425 88 04</a>
         </li>
       </ul>
     </header>
     <main>
       <!-- Hero -->
-      <section>
-        <h1 style="color: padding:30px >Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button">Замовити послугу</button>
       </section>
       <!-- acquaintance -->
-      <section>
+      <section class="detail">
         <ul>
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="detail-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="detail-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="detail-title">ПЛАНУВАННЯ</h3>
+            <p class="detail-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="detail-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="detail-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="detail-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="detail-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
@@ -67,43 +91,63 @@
         </ul>
       </section>
       <!-- Offers -->
-      <section>
-        <h2>Чим ми займаємося</h2>
+      <section class="progect">
+        <h2 class="progect-title">Чим ми займаємося</h2>
         <ul>
           <li>
-            <img src="./hero/ae.jpg" alt="working" />
+            <img src="./hero/ae.jpg" width="370" height="294" alt="working" />
           </li>
           <li>
-            <img src="./hero/af.png" alt="working" />
+            <img src="./hero/af.png" width="370" height="294" alt="working" />
           </li>
           <li>
-            <img src="./hero/ag.png" alt="working" />
+            <img src="./hero/ag.png" width="370" height="294" alt="working" />
           </li>
         </ul>
       </section>
       <!-- workers -->
-      <section>
+      <section class="command">
         <ul>
           <li>
-            <h2>Команда компанії</h2>
-            <img src="./hero/ac.jpg" alt="Микола Тарасов-Marketing" />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h2 class="command-title">Команда компанії</h2>
+            <img
+              src="./hero/ac.jpg"
+              width="270"
+              height="260"
+              alt="Микола Тарасов - Marketing"
+            />
+            <h3 class="command-titles">Микола Тарасов</h3>
+            <p class="command-text">Marketing</p>
           </li>
           <li>
-            <img src="./hero/ab.jpg" alt="Ігор Дем'яненко-Product Designer" />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <img
+              src="./hero/ab.jpg"
+              width="270"
+              height="260"
+              alt="Ігор Дем'яненко - Product Designer"
+            />
+            <h3 class="command-titles">Ігор Дем'яненко</h3>
+            <p class="command-text">Product Designer</p>
           </li>
           <li>
-            <img src="./hero/aa.jpg" alt="Ольга Рєпіна-Frontend Developer" />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <img
+              src="./hero/aa.jpg"
+              width="270"
+              height="260"
+              alt="Ольга Рєпіна - Frontend Developer"
+            />
+            <h3 class="command-titles">Ольга Рєпіна</h3>
+            <p class="command-text">Frontend Developer</p>
           </li>
           <li>
-            <img src="./hero/ad.jpg" alt="Михайло Єрмаков-UI Designer" />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <img
+              src="./hero/ad.jpg"
+              width="270"
+              height="260"
+              alt="Михайло Єрмаков - UI Designer"
+            />
+            <h3 class="command-titles">Михайло Єрмаков</h3>
+            <p class="command-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -111,10 +155,16 @@
     <footer>
       <ul>
         <li>
-          <a href="./index.html">email:github@webstudio.com</a>
+          <a class="sender" href="index.html">WebStudio</a>
         </li>
         <li>
-          <a href="./index.html">telephone:+38 067 425 88 04</a>
+          <h4 class="send">email:github@webstudio.com</h4>
+        </li>
+        <li>
+          <h4 class="send">telephone:+38 067 425 88 04</h4>
+        </li>
+        <li>
+          <h4 class="send">Вулиця Миру,73</h4>
         </li>
       </ul>
     </footer>
