@@ -1,10 +1,11 @@
 /*root-css-selector*/
 :root {
-    --info-color: rgb(65, 65, 65);
-    --sky-color: rgb(78, 138, 161);
-    --title-color: rgb(226, 226, 226);
-    --text-color: rgb(5, 5, 5);
-    --extra-color: rgb(155, 155, 155);
+    --info-color: #757575;
+    --title-color: #FFF;
+    --text-color: #000;
+    --extra-color: rgba(255, 255, 255, 0.60);
+    --onecolor: #2196F3;
+    --firstcolor: #212121;
 }
 
 /*class-style*/
@@ -17,16 +18,34 @@
 
 .header-address {}
 
+.header-s:hover {
+    color: var(--onecolor);
+}
+
+.header-s {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color: var(--text-color);
+}
+
 .header-senders {
-    color: var(--sky-color);
+    color: var(--onecolor);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
     line-height: 2.14;
 }
 
+.header-phone {
+    color: var(--info-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
 .header-sender {
-    color: var(--sky-color);
+    color: var(--onecolor);
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
@@ -69,7 +88,7 @@
 }
 
 .hero-button {
-    background-color: var(--sky-color);
+    background-color: var(--onecolor);
     color: var(--title-color);
     text-align: center;
     font-size: 16px;
@@ -168,7 +187,7 @@
 
 .cites-buttons-item {}
 
-.sites-button {
+.cites-button {
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -177,14 +196,10 @@
     letter-spacing: 0.48px;
 }
 
-.cites-buttons {
-    background-color: var(--sky-color);
+.cites-button:hover {
     color: var(--title-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.63;
-    letter-spacing: 0.48px;
+    background-color: var(--onecolor);
+
 }
 
 /*cites-style*/
@@ -220,7 +235,7 @@
 .footer-item {}
 
 .footer-sender {
-    color: var(--sky-color);
+    color: var(--onecolor);
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
@@ -290,7 +305,7 @@ a:hover {
 
 a:active {
     text-decoration: none;
-    color: var(--sky-color);
+    color: var(--onecolor);
 }
 
 /*ul-style*/
